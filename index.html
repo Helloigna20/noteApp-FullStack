@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css">
+        <title>App de notas</title>
+    </head>
+    <body>
+        <header>
+            <h2>Note app</h2>
+            <button id="boton-agregar">
+                Agregar nota
+            </button>
+        </header>
+        <main>
+
+            <section id="creador-de-notas">
+                    <div>
+                        <input id="titulo-nuevaNota" type="text" placeholder="Titulo de la nota">
+                        <textarea name="contenido-nuevaNota" id="contenido-nota"></textarea>
+                        <select id="seleccion-cat-nuevaNota">
+                            <option value="1">Estudio</option>
+                            <option value="2">Trabajo</option>
+                            <option value="3">Que haceres</option>
+                        </select>
+                    </div>
+                    <div id="ContenedorBotones-nuevaNota">
+                        <button id="cancelar-notaNueva">Cancelar</button>
+                        <button id="agregar-notaNueva">Agregar Nota</button>
+                    </div>
+                </section>
+
+            <div id="lista-de-notas">
+                <article class = "nota">
+                    <div class="Header-nota">
+                        <span>Categoria</span>
+                        <h3>titulo de nota</h3>
+                    </div>
+                    <div class="body-nota">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo expedita odio, eaque dolor, ipsam nam dolore quas libero, accusantium voluptatum a id quam quaerat eveniet! Rerum veniam numquam iusto maiores.</p>
+                    </div>
+                    <div class="Footer-nota">
+                        <button>eliminar</button>
+                        <button>editar</button>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
