@@ -1,4 +1,4 @@
-const URL_API = "http://localhost:8080/api/notas";
+const URL_API = "https://note-app-ignacio.onrender.com";
 
 const seccionCreador = document.getElementById('creador-de-notas');
 const btnAbrir = document.getElementById('boton-agregar');
